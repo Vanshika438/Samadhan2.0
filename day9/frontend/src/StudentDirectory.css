@@ -1,0 +1,148 @@
+/* Student Directory Styles */
+.student-directory {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.directory-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.directory-header h2 {
+  font-size: 2rem;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.student-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.student-card {
+  background: white;
+  padding: 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.student-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.student-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  flex-shrink: 0;
+}
+
+.student-details h3 {
+  font-size: 1.1rem;
+  color: #2d3748;
+  margin: 0 0 0.25rem 0;
+  font-weight: 600;
+}
+
+.student-meta {
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.student-meta span {
+  margin-right: 1rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #718096;
+  font-size: 1.1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .student-directory {
+    padding: 1rem;
+  }
+  
+  .directory-header h2 {
+    font-size: 1.75rem;
+  }
+  
+  .student-card {
+    padding: 1rem;
+  }
+  
+  .student-info {
+    gap: 0.75rem;
+  }
+  
+  .student-avatar {
+    width: 45px;
+    height: 45px;
+    font-size: 0.9rem;
+  }
+  
+  .student-details h3 {
+    font-size: 1rem;
+  }
+  
+  .student-meta {
+    font-size: 0.85rem;
+  }
+  
+  .student-meta span {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 0.2rem;
+  }
+}
+
+/* Empty State */
+.student-list:empty::after {
+  content: 'No students found';
+  display: block;
+  text-align: center;
+  color: #a0aec0;
+  font-style: italic;
+  padding: 2rem;
+  background: #f7fafc;
+  border-radius: 8px;
+  border: 2px dashed #e2e8f0;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.student-card {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.student-card:nth-child(1) { animation-delay: 0.1s; }
+.student-card:nth-child(2) { animation-delay: 0.2s; }
+.student-card:nth-child(3) { animation-delay: 0.3s; }
