@@ -1,0 +1,98 @@
+/* Main container */
+.app-container {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 450px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* Heading */
+h2 {
+  color: #4CB6B6;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* Input and Button section */
+.input-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 2px solid #4CB6B6;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-section input:focus {
+  border-color: #D3C4E3;
+  box-shadow: 0 0 5px rgba(76, 182, 182, 0.5);
+}
+
+.input-section button {
+  margin-left: 10px;
+  padding: 10px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CB6B6;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.input-section button:hover {
+  background-color: #379090;
+  transform: scale(1.05);
+}
+
+/* Empty state message */
+.empty-state {
+  margin-top: 20px;
+  font-style: italic;
+  color: #6D6D6D;
+}
+
+/* Task list */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.task-item {
+  background: #F0EAF6;
+  margin: 8px 0;
+  padding: 12px 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.task-item:hover {
+  transform: translateX(5px);
+}
+
+/* Delete button */
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #c0392b;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.2s, color 0.3s;
+}
+
+.delete-btn:hover {
+  color: #e74c3c;
+  transform: scale(1.2);
+}
