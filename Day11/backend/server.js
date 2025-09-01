@@ -5,10 +5,9 @@ const cors = require("cors");
 const app = express();
 app.use(bodyParser.json());
 
-// ✅ Allow frontend (React) to call backend
 app.use(cors());
 
-// In-memory "database"
+// Temp
 let students = [];
 let idCounter = 1;
 
@@ -56,4 +55,4 @@ app.delete("/students/:id", (req, res) => {
 
 // Start server
 const PORT = 5000;
-app.listen(PORT, () => console.log(`✅ Server running at http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Server running at http://localhost:${PORT}`));

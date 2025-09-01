@@ -82,8 +82,8 @@ function App() {
         {students.map((s) => (
           <li key={s.id}>
             {s.name} ({s.age}) - {s.course}
-            <button onClick={() => editStudent(s)}>✏️ Edit</button>
-            <button onClick={() => deleteStudent(s.id)}>🗑 Delete</button>
+            <button onClick={() => editStudent(s)}>Edit</button>
+            <button onClick={() => deleteStudent(s.id)}>Delete</button>
           </li>
         ))}
       </ul>
