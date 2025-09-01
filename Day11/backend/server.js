@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 app.use(cors());
 
-// Temp
+// Temp data
 let students = [];
 let idCounter = 1;
 
