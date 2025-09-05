@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Tee",
+    "price": 29.99,
+    "description": "A comfortable and stylish classic tee.",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+  },
+  {
+    "id": 2,
+    "name": "Denim Jeans",
+    "price": 89.99,
+    "description": "Perfectly fitted denim jeans for everyday wear.",
+    "image": "https://images.unsplash.com/photo-1602293589914-9e296ba2a754"
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "price": 129.99,
+    "description": "Lightweight and responsive running shoes.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ab"
+  },
+  {
+    "id": 4,
+    "name": "Leather Jacket",
+    "price": 249.99,
+    "description": "A timeless leather jacket for a cool look.",
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5"
+  },
+  {
+    "id": 5,
+    "name": "Beanie Hat",
+    "price": 19.99,
+    "description": "A warm and cozy beanie for cold days.",
+    "image": "https://images.unsplash.com/photo-1576871335620-931638787324"
+  },
+  {
+    "id": 6,
+    "name": "Sunglasses",
+    "price": 79.99,
+    "description": "Stylish sunglasses to protect your eyes from the sun.",
+    "image": "https://images.unsplash.com/photo-1577803645773-f92404a0543a"
+  },
+  {
+    "id": 7,
+    "name": "Wrist Watch",
+    "price": 199.99,
+    "description": "An elegant wrist watch for any occasion.",
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d"
+  },
+  {
+    "id": 8,
+    "name": "Backpack",
+    "price": 59.99,
+    "description": "A durable and spacious backpack for your travels.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb68c6a62"
+  },
+  {
+    "id": 9,
+    "name": "Hoodie",
+    "price": 49.99,
+    "description": "A soft and comfortable hoodie for a casual look.",
+    "image": "https://images.unsplash.com/photo-1556156013-434c93499b58"
+  },
+  {
+    "id": 10,
+    "name": "Scarf",
+    "price": 24.99,
+    "description": "A stylish scarf to keep you warm.",
+    "image": "https://images.unsplash.com/photo-1562158834-f8003c04c352"
+  },
+  {
+    "id": 11,
+    "name": "Leather Belt",
+    "price": 39.99,
+    "description": "A classic leather belt to complete your outfit.",
+    "image": "https://images.unsplash.com/photo-1614103323882-620992569934"
+  },
+  {
+    "id": 12,
+    "name": "Socks",
+    "price": 9.99,
+    "description": "A pair of comfortable and breathable socks.",
+    "image": "https://images.unsplash.com/photo-1586350977775-3d9a4842a258"
+  }
+]
